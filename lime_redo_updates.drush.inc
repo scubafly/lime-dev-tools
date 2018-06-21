@@ -37,7 +37,7 @@ function lime_redo_updates_drush_command() {
   );
 
   $items['lime-update-redo-update-from'] = array(
-    'description' => 'Redo last schema updates of module.',
+    'description' => 'Redo schema updates of module from given schema version.',
     'arguments' => array(
       'module_name' => 'The module that you want to update',
       'schema_version' => 'The schema version to run updates from so 8001 wil run updates 8001 and up.',
