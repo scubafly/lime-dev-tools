@@ -44,7 +44,7 @@ function lime_redo_updates_drush_command() {
     ),
     'category' => 'LimeDevTools',
     'examples' => array(
-      'drush lime-redo-last-update views' => 'Reruns updates from a given schema version for $module.',
+      'drush lime-redo-last-update paragraphs' => 'Reruns updates from a given schema version for $module.',
     ),
     'aliases' => array('luuf'),
   );
@@ -56,7 +56,7 @@ function lime_redo_updates_drush_command() {
     ),
     'category' => 'LimeDevTools',
     'examples' => array(
-      'drush lime-redo-last-update paragraphs' => 'Checks current schema version, updates database and runs updb on module.',
+      'drush lime-redo-last-update paragraphs' => 'Checks current schema version, downgrades it by 1, updates database and runs updb on module.',
     ),
     'aliases' => array('lulu'),
   );
